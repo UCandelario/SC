@@ -28,9 +28,9 @@ jobs:
 
       - name: Run unit tests with coverage
         run: |
-          coverage run -m pytest
-          coverage report
-          coverage xml
+          coverage run -m pytest tests/
+          coverage xml -o coverage.xml
+
 
       - name: Check coverage threshold (mínimo 80%)
         run: |

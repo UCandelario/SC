@@ -31,7 +31,6 @@ jobs:
           export PYTHONPATH=.
           coverage run -m pytest tests/
           coverage xml
-          coverage-cobertura -i coverage.xml -o cobertura.xml
         
       - name: Check coverage threshold (mínimo 80%)
         run: |

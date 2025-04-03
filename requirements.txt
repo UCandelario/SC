@@ -1,6 +1,4 @@
 pytest
 pytest-cov
-coverage
-coverage-cobertura
 safety
 truffleHog
